@@ -54,31 +54,113 @@
 
            </div>
 
-        </div>
-<!-- End of Navbar -->
+        </div> <!-- End of Navbar -->
+
 
 <!-- Featured Product -->
 
 <section>
     <div class="container">
         
-         <div class="row">
-             <div class="span4">
-                 
-                 <h1>
-                     Random Hacks of Kindness
+          <div class="row">
+              <div class="span4">
+                  
+                 <h1>Welcome to RHOK</h1>
+                 <p class="lead">a Community of Hackers who innovate for social good.</p>
+                 <div class="btn-group">
+                     <a href="" class="btn btn-info btn-large">Register Now</a>
+                     <a href="" class="btn btn-large">Learn More</a>
+                 </div>
+                 <p><a href="">Read more about RHOK  &raquo;</a></p>
 
-                 </h1>
-                 <p class="lead">For Innovation and Hacking </p>
 
+              </div>
+              <div class="span8">
+                  
+                  <img src="img/tuts-hub.jpg" alt="This will be replaced!!">
 
-             </div>
-             <div class="span8"></div>
-         </div>
+              </div>
+          </div>
 
+    </div> <!-- End of Container -->
+</section>   
+<hr />
+<!-- Company info -->
+
+<div class="container">
+    
+
+<section>
+    <h3>The Company</h3>
+    <div class="row">
+      <div class="span8">
+       
+        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+      </div>
+      <div class="span4">
+            
+          <p class="well well-large lead text-centered">Lorem Ipsum is simply dummy the industry's standard dummy text ever since the 1500s.</p>
+
+      </div>
     </div>
+    
+</section>
+<hr />
+
+<!--Testimonials -->
+<h3>Testimonials</h3>
+<ol class="carousel-indicators">
+    <li data-target="#testimonials" data-slide-to="0" class="active"></li>
+    <li data-target="#testimonials" data-slide-to="1"></li>
+    <li data-target="#testimonials" data-slide-to="2"></li>
+    
+</ol>
+<div class="carousel" id="testimonials">
+    <div class="carousel-inner">
+        <div class="item active">
+            <blockquote>
+                <p>This is Testimonial 1</p>
+                <small>John Doe</small>
+            </blockquote>
+        </div>
+        <div class="item">
+            <blockquote>
+                <p>This is Testimonial 2</p>
+                <small>Mullah ali</small>
+            </blockquote>
+        </div>
+        <div class="item">
+            <blockquote>
+                <p>This is Testimonial 3</p>
+                <small>Kader Khan</small>
+            </blockquote>
+        </div>
+    </div>
+    
+</div> <!--End of Carousel -->
+
+<hr />
+
+<!--Footer -->
+
+<section>
+    
+    <p class="lead text-center">Wanna Get in Touch ? Email us at <a href="">weeer@reer.com </a></p>
+
+    <hr />
+    <ul class="inline text-center">
+        
+       <li><strong>Follow Us On:</strong></li>
+       <li><a href=""></a>Twitter</li>
+       <li><a href=""></a>Facebook</li>
+       <li><a href=""></a>Youtube</li>
+
+    </ul>
+    <p class="text-center muted">&copy; CopyRight Not Reserved</p>
 </section>
 
+</div> <!--End of Container -->
 
         
       
@@ -90,10 +172,18 @@
         <script src="js/main.js"></script>
 
         <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
+            
+
+            $(document).ready(function(){
+
+                $('.carousel').carousel({
+                    interval:5000
+                });
+
+
+            });
+
+
         </script>
     </body>
 </html>
